@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+}
+
+.main {
+    max-width: 720px;
+    margin: 120px auto 120px;
+    padding: 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.first::before {
+    content: "1";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border: 3px solid #70c0c9;;
+    border-radius: 100%;
+    padding: 6px 11px;
+    color: #70c0c9;
+    background: #fff;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.second::before {
+    content: "2";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border: 3px solid #4074bd;
+    border-radius: 100%;
+    padding: 6px 11px;
+    color: #4074bd;
+    background: #fff;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.third::before {
+    content: "3";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border: 3px solid #e05e46;
+    border-radius: 100%;
+    padding: 6px 11px;
+    color: #e05e46;
+    background: #fff;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.fourth::before {
+    content: "4";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border: 3px solid #919191;
+    border-radius: 100%;
+    padding: 6px 11px;
+    color: #919191;
+    background: #fff;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.column {
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+     margin: 0 10px 0;
+}
+
+.image {
+    display: block;
+    width: 130px;
+    height: 130px;
+    padding: 35px;
+    margin: 40px auto 13px;
+    border-radius: 3px;
+}
+
+.main .text h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #e46c5d;
+    margin: 13px auto 10px;
+    word-spacing: 200px;
+    line-height: 15px;
+}
+
+.main .text p {
+    font-size: 10px;
+    color: #919191;
+    line-height: 18px;
+}
+
+.first .image {
+    background: #70c0c9;
+}
+
+.second .image {
+    background: #4074bd;
+}
+
+
+.third .image {
+   background: #e05e46;
+}
+
+.fourth .image {
+    background: #919191;
+}
