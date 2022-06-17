@@ -124,6 +124,5 @@ body {
 }
 
 .image img {
-    color: #fff;
     filter: invert(1);
 }
