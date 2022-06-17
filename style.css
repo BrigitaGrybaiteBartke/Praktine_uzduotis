@@ -115,11 +115,15 @@ body {
     background: #4074bd;
 }
 
-
 .third .image {
    background: #e05e46;
 }
 
 .fourth .image {
     background: #919191;
+}
+
+.image img {
+    color: #fff;
+    filter: invert(1);
 }
